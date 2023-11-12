@@ -5,9 +5,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 
 # Model loading
-Model = joblib.load('NLP/Email_classifier.joblib')
+Model = joblib.load('Email_classifier.joblib')
 # vectorizer loading which is fitted on the training data
-vectorizer = joblib.load('NLP/vectorizer_.joblib')
+vectorizer = joblib.load('vectorizer_.joblib')
 # title of the web app
 st.title("Email_classifier")
 # taking the input from the user
